@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  color: #1a120b;
+  background-color: #fff8c9;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff8c9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container.active {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.user {
+  background-color: #eec373;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.user h1 {
+  background-color: #eec373;
+}
+
+.u-table {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 40px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #1a1201;
+  width: 12.5%;
+  background-color: #eec373;
+  word-break: break-all;
+  padding: 10px;
+}
+
+.p-utable {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  border: none;
+}
+
+.col i {
+  background-color: #eec373;
+}
+
+.col a {
+  color: #1a120b;
+}
+
+#pop-up {
+  position: fixed;
+  top: 43%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #eec373;
+  width: 20%;
+  height: 150px;
+  border: 2px solid #1a120b;
+  border-radius: 10px;
+  margin: auto;
+  visibility: hidden;
+}
+
+#pop-up h3 {
+  background-color: #eec373;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.btn {
+  width: 100%;
+  background-color: #eec373;
+  display: flex;
+  justify-content: space-around;
+}
+
+#pop-up button {
+  background-color: #fff8c9;
+  width: 30%;
+  padding: 10px;
+  font-size: 0.8rem;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+}
+
+#pop-up button:hover {
+  background-color: #fae97c;
+}
+
+#pop-up.show {
+  visibility: visible;
+}
+
+
+button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#pop-up form button{
+  width: 100%;
+  padding: 10px 30px;
+}

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+body{
+    background-color: #fff8c9;
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #eec373;
+    width: 60%;
+    min-height: 80%;
+    margin: 65px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.subdiv1{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.subdiv1 h1{
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.subdiv1 .login-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.subdiv1 input{
+    height: 25px;
+    background-color: #fff8c9;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0;
+}
+
+.subdiv1 input:hover{
+    background-color: #FFE1AF;
+}
+
+.subdiv1 input::placeholder{
+    font-size: 16px;
+}
+
+.subdiv1 p{
+    margin: 5px 0 15px 0;
+    color: red;
+}
+
+.subdiv1 button{
+    cursor: pointer;
+    background-color: #fff8c9;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 20px auto 10px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 30%;
+}
+
+.subdiv1 button:hover{
+    background-color: #FFE1AF;
+}
+
+.subdiv2{
+    width: 45%;
+    position: relative;
+}
+
+.subdiv2 img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    object-fit:cover;
+}
+
+.subdiv2 .paraclass1{
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 150px;
+    font-size: 40px;
+    font-weight: 600;
+    width: 18%;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.subdiv2 .paraclass2{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 80px;
+}
+
+.subdiv2 .paraclass2 a{
+    color: white;
+}
+
+.paraclass2 a:hover{
+    color: #FFE1AF;
+}
+
+.userExists{
+    position: relative;
+    border: 1px solid red;
+    background-color: rgb(255, 168, 168);
+    font-weight: 500;
+    display: flex;
+    align-items: center;justify-content: center;
+    padding: 5px;
+    display: none;
+}
+.userExists p{
+    text-align: center;
+    margin: 0;
+}
+.userExists i{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}

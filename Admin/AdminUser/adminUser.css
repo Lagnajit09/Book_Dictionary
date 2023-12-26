@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    color:  #1A120B;
+    outline: none;
+    border:none;
+}
+
+body{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8C9;
+    
+}
+
+.main-div{
+    background-color: #EEC373;
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+form > div{
+    margin: 20px;
+}
+
+input{
+    display: block;
+    background-color: #FFF8C9;
+    font-size: 18px;
+    width:500px;
+    border-radius: 10px;
+    padding: 10px 10px;  
+    margin-bottom: 15px;
+}
+
+input::placeholder{
+    font-size: 18px;
+}
+
+h3{
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+input:hover{
+    background-color: #FFE1AF;
+}
+
+.buttonclass{
+    width:20%;
+    height: 38.2px;
+    background-color: #FFF8C9;
+    border-radius: 10px;
+    color:#1A120B;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight:bold;
+}
+button:hover{
+    background-color: #FFE1AF;
+}
+
+.form-class p{
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: red;
+    font-size: 17px;
+    transform: translate(0,-30%);
+}
+
+.userExists{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(255, 168, 168);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    display: none;
+}
+.userExists p{
+    text-align: center;
+    margin: 0;
+}
+.userExists i{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 2px;
+}

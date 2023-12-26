@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    /* background-color: #FFF8C9; */
+    font-family: 'Poppins' , sans-serif;
+    color: #1A120B;
+}
+body{
+    background-color: #FFF8C9;
+}
+
+.maincontainer{
+    width: 50%;
+    /* max-height: 80%; */
+    /* position: relative; */
+    background-color: #EEC373;
+    margin: 60px auto;
+    border-radius: 25px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.subdiv1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #EEC373; */
+    /* position: absolute; */
+    /* display:block;
+    top: 100px;
+    right: 400px;
+    left: 50px;
+    bottom: 100px; */
+}
+
+.subdiv2{
+    flex: 1;
+    margin: 0px;
+    position: relative;
+    /* top:0px;
+    bottom:0px;
+    right:0px;
+    left:500px; */
+    border-radius: 25px;
+}
+
+img{ 
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;;
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.login-form{
+    /* background-color:#EEC373; */
+    /* position: absolute;
+    top: 70px; */
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    /* display: block; */
+}
+
+.login-form p{
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: red;
+}
+
+.login-form a{
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: red;
+}
+
+
+h3{
+    margin-bottom: 0px;
+    font-size: 45px;
+    background-color: #EEC373;
+    margin-left: 100px;
+}
+
+
+input{
+    color:#1A120B;
+    background-color: #FFF8C9;
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+    display: block;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 30px;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+input:hover{
+    background-color: #FFE1AF;
+}
+
+button{
+    background-color: #FFF8C9;
+    height: 25px;
+    width: 25%;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.paraclass1{
+position:absolute;
+top:240px;
+bottom:400px;
+right:20px;
+left:115px;
+text-align: center;
+font-size: 35px;
+color: white;
+width: 180px;
+line-height: 1.3;
+}
+
+.paraclass2{
+position:absolute;
+top:540px;
+bottom:50px;
+right:0px;
+left:78px;
+height:10px;
+width:200px;
+margin: 0px;
+font-size: 15px;
+color: white;
+display:inline;
+background: none;
+
+}
+
+.buttonclass1:hover{
+    background-color: #FFE1AF;
+    cursor: pointer;
+}
+
+.buttonclass2:hover{
+    background-color: #FFE1AF;
+}
+
+.subdiv2 a{
+    position:absolute;
+    font-size: 15px;
+    top: 540px;
+    left:260px;
+    right:0;
+    bottom: 50px;
+    color: white;
+    margin:0px;
+    background: none;
+}
+.subdiv2 a:hover{
+    color: #FFE1AF;
+}
+
+.buttonclass1{
+    height:30px;
+}
+
+.subdiv1 .forgot-pass
+{
+    color: black;
+    position: absolute;
+    bottom: 0;
+}
+.subdiv1 .forgot-pass a{
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+}
+.subdiv1 .forgot-pass a:hover{
+    color: #dfd7a4;
+}
+
+.no-user{
+    position: relative;
+    border: 1px solid red;
+    background-color: rgb(255, 168, 168);
+    font-weight: 500;
+    display: flex;
+    align-items: center;justify-content: center;
+    padding: 5px;
+    display: none;
+}
+.no-user p{
+    text-align: center;
+}
+.no-user i{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}

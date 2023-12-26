@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    color:  #1A120B;
+    outline: none;
+    border:none;
+}
+body{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8C9;
+    
+}
+
+.maindiv{
+    background-color: #EEC373;
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+
+form > div{
+    margin: 20px;
+}
+
+input{
+    display: block;
+    background-color: #FFF8C9;
+    font-size: 18px;
+    width:700px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+input::placeholder{
+    font-size: 18px;
+}
+
+h3{
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+input:hover{
+    background-color: #FFE1AF;
+}
+
+.buttonclass{
+    width:20%;
+    height: 38.2px;
+    background-color: #FFF8C9;
+    border-radius: 10px;
+    color:#1A120B;
+    margin: 0 40% 30px;
+    font-size: 20px;
+    font-weight:bold;
+}
+button:hover{
+    background-color: #FFE1AF;
+}
+textarea{
+    background-color: #FFF8C9;
+    font-size: 18px;
+    border-radius: 10px;  
+    padding: 10px 10px; 
+}
+textarea:hover{
+    background-color: #FFE1AF;
+}
+
+.bookExists{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(255, 168, 168);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    display: none;
+}
+.bookExists p{
+    text-align: center;
+    margin: 0;
+}
+.bookExists i{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 4px;
+}
